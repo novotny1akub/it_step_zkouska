@@ -1,0 +1,39 @@
+.gallery {
+    width: 600px;
+    background-color: lightgrey;
+    margin: 5px;
+    padding: 5px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: center;
+    box-sizing: border-box;
+  }
+  
+  img {
+    height: 100px;
+    width: calc(20% - 10px); /* subtract the margin */
+    margin: 5px;
+    box-sizing: border-box;
+  }
+
+  .filters-counter div.filtering-div {
+    display: inline-block;
+    width: auto;
+    height: auto;
+    padding: 5px;
+    margin: 5px;
+    border: 1px solid blue;
+  }
+
+  .filters-counter .selected {
+    background-color: blue;
+    color: white;
+  }
+
+  .gallery-div .filtering-counter {
+    display: inline-block;
+    width: 100px;
+    text-align: right;
+    font-weight: bold;
+  }
